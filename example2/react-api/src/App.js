@@ -22,7 +22,7 @@ class App extends Component {
         .then((data) => {
           this.setState({ contacts: data,loading:false })
         })
-        .catch(console.log)},5000);
+        .catch(console.log)},500);
         
 
 
